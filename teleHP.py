@@ -18,7 +18,6 @@ btn_payment = types.KeyboardButton('Способы оплаты')
 btn_delivery = types.KeyboardButton('Способы доставки')
 markup_menu.add(btn_adress, btn_delivery, btn_payment)
 
- hgvjhgvjgvj
 markup_inline_payment = types.InlineKeyboardMarkup()
 btn_in_cash = types.InlineKeyboardButton('Наличные', callback_data='cash')
 btn_in_card = types.InlineKeyboardButton('Картой', callback_data='card')
