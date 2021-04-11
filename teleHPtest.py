@@ -5,7 +5,7 @@ from telebot import types
 import const
 from geopy.distance import geodesic
 from flask import Flask, request
-bot_type = 'offline'
+bot_type = 'online'
 
 PORT = 0
 TOKEN = '1601868112:AAG4PHbJ5IQY3R4SfdMAAn-ceEboKAeZfJA'

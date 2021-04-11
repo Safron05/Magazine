@@ -1,1 +1,1 @@
-web: python3 teleHP.py
+web: python3 teleHPtest.py
